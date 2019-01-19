@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.plugin {
+  padding: 60px 0;
+}
+.plugin:nth-child(odd) {
+  background-color: #323232;
+}
+.plugin:nth-child(even) {
+  background-color: #232323;
+}
+.plugin__title {
+  text-align: center;
+  color: white;
+  margin-top: 0;
+}
+.plugin__title a {
+  color: inherit;
+  text-decoration: none;
+}
+.plugin__title a:hover, .plugin__title a:focus {
+  text-decoration: underline;
+}
+.plugin__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
